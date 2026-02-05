@@ -13,17 +13,17 @@ Se estudian relaciones entre:
 El objetivo es evaluar cómo reaccionaron los sistemas sanitarios ante el shock de 2020 y si existen diferencias estructurales entre países.
 
 ## Tabla de Contenidos
-    - [Instalación](#instalación)
-    - [Uso](#uso)
-    - [Dataset](#dataset)
-    - [Preguntas de Investigación](#preguntas-de-investigación)
-	- [Metodología](#metodología)
-    - [Análisis](#análisis)
-    - [Resultados](#resultados)
-	- [Conclusiones](#conclusiones)
-	- [Limitaciones del Análisis](#limitaciones-del-análisis)
-	- [Trabajo Futuro](#trabajo-futuro)
-    - [Contribución](#contribución)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Dataset](#dataset)
+- [Preguntas de Investigación](#preguntas-de-investigación)
+- [Metodología](#metodología)
+- [Análisis](#análisis)
+- [Resultados](#resultados)
+- [Conclusiones](#conclusiones)
+- [Limitaciones del Análisis](#limitaciones-del-análisis)
+- [Trabajo Futuro](#trabajo-futuro)
+- [Contribución](#contribución)
 
 ## Instalación 
 1. Clonar el repositorio:\
@@ -87,58 +87,55 @@ El proyecto incluye:
 
 # Análisis
 
-Se realizaron:
-- Comparaciones 2013-2019 vs 2020-2024.
-- Rankings de países por gasto, camas y estancias.
-- Evolución temporal de indicadores clave.
-- Cruces entre gasto ↔ estancia ↔ demanda ↔ capacidad.
-- Análisis específico para España.
+* Comparación antes y después de 2020.
+* Comparación entre países europeos.
+* Evolución temporal de los principales indicadores.
+* Relación entre gasto, capacidad y estancias.
+* Caso específico de España.
 
 # Resultados Principales
 
-Impacto del COVID-19\
+Evolución de la capacidad hospitalaria en Europa (2013–2024)\
 \
-En 2020 se observa una caída generalizada en las altas hospitalarias en muchos países, probablemente asociada a:
-* Cancelación de procedimientos no urgentes.
-* Saturación del sistema.
-* Prioridad a casos COVID.
+Durante el periodo 2013–2024, la capacidad hospitalaria en Europa, medida como camas por cada 100.000 habitantes, se mantiene relativamente estable en la mayoría de países, con variaciones moderadas entre años.
+\
+En contraste, la demanda hospitalaria muestra cambios más marcados, especialmente en torno a 2020. Esto indica que la evolución de la actividad hospitalaria no siempre ha ido acompañada por un crecimiento proporcional de los recursos disponibles.
+\
 
 Gasto sanitario y resistencia al impacto COVID\ 
 \
-El análisis muestra que los países con mayor gasto sanitario por habitante tienden a registrar caídas menos pronunciadas en la actividad hospitalaria durante 2020, lo que sugiere una mayor capacidad de absorción del impacto de la pandemia.
-\
-Aunque la relación no es perfecta, el patrón general apunta a que una mayor inversión sanitaria podría contribuir a una respuesta más resiliente ante crisis externas.
-\
-Capacidad hospitalaria y shock pandémico
-\
-Los países con menor número de camas hospitalarias por habitante experimentaron, en promedio, descensos relativos más intensos en la demanda hospitalaria en 2020.
-\
-Esto indica que la capacidad previa del sistema sanitario puede haber condicionado la respuesta ante la pandemia, aunque se observan excepciones entre países.
+El análisis muestra que los países con mayor gasto sanitario por habitante tienden a registrar descensos menos pronunciados en la actividad hospitalaria durante 2020.
 
+Aunque la relación no es homogénea entre países, el patrón general sugiere que un mayor nivel de gasto podría estar asociado a una mayor capacidad de adaptación ante situaciones de presión extraordinaria.
+\
+COVID-19 y actividad hospitalaria en Europa
+\
+En 2020 se observa una caída generalizada en las altas hospitalarias en muchos países europeos, posiblemente relacionada con:
+* Cancelación de procedimientos no urgentes.
+* Reorganización hospitalaria para atender pacientes COVID.
+* Prioridad de ingresos urgentes frente a actividad programada.
+\
 España: envejecimiento poblacional y presión hospitalaria
-
+\
 Entre 2013 y 2024 se observa que:
-* La proporción de población mayor de 65 años aumenta de forma continua.
-* Las hospitalizaciones por habitante presentan una caída abrupta en 2020.
-* Tras la pandemia, la actividad hospitalaria se recupera progresivamente, aunque no siempre alcanza los niveles previos.
-
-Estos resultados sugieren que el envejecimiento poblacional podría ejercer una presión creciente sobre el sistema sanitario español en el largo plazo, mientras que eventos extremos como el COVID-19 alteran temporalmente esta relación.
+* La proporción de población mayor de 65 años aumenta de forma continuada.
+* Las hospitalizaciones por habitante muestran una caída marcada en 2020.
+* Tras la pandemia, la actividad hospitalaria se recupera gradualmente.
 
 # Conclusiones
 
-* El COVID-19 supuso un shock estructural en los sistemas sanitarios europeos.
-* El gasto sanitario parece estar asociado a una mayor resiliencia frente a crisis.
-* La capacidad hospitalaria condiciona la magnitud del impacto ante shocks externos.
-* En España, el envejecimiento poblacional incrementa la presión futura sobre el sistema sanitario.
+* Entre 2013 y 2024, la evolución de la demanda hospitalaria en Europa muestra cambios importantes a partir de 2020, mientras que la capacidad hospitalaria (medida en camas por habitante) presenta una evolución mucho más gradual y estable en el tiempo.
+* Los países con mayor gasto sanitario por habitante tendieron a experimentar caídas menos intensas en la actividad hospitalaria durante la pandemia, lo que sugiere una mayor capacidad de adaptación ante una crisis sanitaria.
+* La capacidad hospitalaria estructural es un elemento relevante para entender cómo funcionan los sistemas sanitarios europeos a lo largo del tiempo, aunque por sí sola no explica completamente las diferencias observadas entre países.
+* En España, el envejecimiento progresivo de la población se asocia con una presión creciente sobre el sistema sanitario, interrumpida temporalmente en 2020 por el impacto excepcional del COVID-19.
 
 # Limitaciones del análisis:
 
-Este proyecto presenta varias limitaciones que deben tenerse en cuenta al interpretar los resultados:
-* El análisis se basa en datos agregados a nivel país, lo que puede ocultar diferencias regionales dentro de cada sistema sanitario.
-* Algunas variables clave (como capacidad hospitalaria, gasto sanitario o estancias medias) no recogen aspectos cualitativos como la organización hospitalaria o la disponibilidad real de personal sanitario.
-* La relación observada entre variables es de carácter descriptivo, por lo que no permite establecer causalidad directa.
-* La pandemia de COVID-19 fue un evento excepcional que afectó simultáneamente a múltiples dimensiones del sistema sanitario, lo que dificulta aislar el efecto específico de cada factor.
-* El análisis del envejecimiento poblacional se limita al caso de España y no se dispone de información comparable para el resto de países europeos.
+Los datos están agregados a nivel país, por lo que pueden ocultar diferencias regionales dentro de cada sistema sanitario.
+* Algunas variables (como camas hospitalarias, gasto sanitario o estancias medias) no recogen aspectos cualitativos como la organización hospitalaria o la disponibilidad real de personal.
+* El análisis es descriptivo: se estudian asociaciones entre variables, pero no se puede afirmar que una cause a la otra.
+* La pandemia fue un evento excepcional que afectó a muchos factores al mismo tiempo, lo que hace difícil aislar el efecto de cada uno.
+* El análisis del envejecimiento poblacional solo se realiza para España, ya que no se dispone de datos comparables para todos los países europeos.
 
 
 # Trabajo futuro
